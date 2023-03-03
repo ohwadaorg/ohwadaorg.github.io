@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>ohwada</title>
-        <meta name="description" content="ohwada (@ohwada) was born in 1997 and is a part-time jobber. Worked on the production of original songs and music videos for Vocaloid IA. Also active as a member of the music unit ”70℃” with AI singer Feng Yi." />
+        <meta name="description" content="ohwada (@ohwada) was born in 1997 and is a part-time jobber. Worked on the production of original songs and music videos for Vocaloid IA. Also active as a member of the music duo ”70℃” with AI singer Feng Yi." />
         <style>
             html,
             body {
@@ -29,15 +29,49 @@
                 font-size: 10px;
                 color: #555;
             }
+            .discography-list {
+                white-space: nowrap;
+                overflow-x: auto;
+                padding: 0 0 30px;
+            }
+            .discography-list li {
+                display: inline-block;
+                list-style: none;
+                text-align: center;
+            }
+            footer {
+                border-top: 1px solid #ccc;
+                margin-top: 50px;
+                padding-top: 10px;
+                text-align: right;
+            }
         </style>
     </head>
     <body>
-        <h1>ohwada</h1>
-        <p>ohwada (@ohwada) was born in 1997 and is a part-time jobber.<br />Worked on the production of original songs and music videos for Vocaloid IA.<br />Also active as a member of the music unit "70℃" with AI singer Feng Yi.</p>
+        <h1 id="profile">ohwada</h1>
+        <p>ohwada (@ohwada) was born in 1997 and is a part-time jobber.<br />Worked on the production of original songs and music videos for Vocaloid IA.<br />Also active as a member of the music duo "70℃" with AI singer Feng Yi.</p>
         <p class="small">大和田 (@ohwada) は1997年生まれのフリーター。<br />ボーカロイドIAのオリジナル楽曲・ミュージックビデオの制作を手掛ける。<br />AIシンガー Feng Yiとの音楽ユニット「70℃」のメンバーとしても活動中。</p>
-        <div>
-            <a href="https://www.youtube.com/@ohwada" target="_blank">YouTube (ohwada)</a><br />
-            <a href="https://www.youtube.com/@70C" target="_blank">YouTube (70℃)</a>
-        </div>
+        <h2 id="links">Links</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/@ohwada" target="_blank">YouTube (ohwada)</a><br /></li>
+            <li>
+                <a href="https://www.youtube.com/@70C" target="_blank">YouTube (70℃)</a>
+            </li>
+        </ul>
+        <h2 id="news">News (Unofficial)</h2>
+        <a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/unohfficial?ref_src=twsrc%5Etfw">Tweets by unohfficial</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <!--
+            <h2 id="discography">Discography</h2>
+            <ul class="discography-list">
+                <li>
+                    <img src="https://placehold.co/400" width="250" height="250" alt="1st album" />
+                    <p>1st album</p>
+                </li>
+            </ul>
+        -->
+        <footer>
+            <p class="small">Copyright ©︎ ohwada</p>
+        </footer>
     </body>
 </html>
